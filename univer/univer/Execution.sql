@@ -3,7 +3,7 @@ WHERE RecordBook=11054;
 GO
 
 SELECT * FROM StudentInformation
-WHERE StudentName='Соболева Мария Тимофеевна';
+WHERE StudentName='РЎРѕР±РѕР»РµРІР° РњР°СЂРёСЏ РўРёРјРѕС„РµРµРІРЅР°';
 GO
 
 SELECT * FROM DisciplineInformation;
