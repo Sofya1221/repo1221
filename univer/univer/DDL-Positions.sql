@@ -1,5 +1,0 @@
-CREATE TABLE Positions
-(
-ID INT CONSTRAINT PK_Position PRIMARY KEY,
-PositionName NVARCHAR(30) CONSTRAINT UQ_Positions_PositionName NOT NULL
-);

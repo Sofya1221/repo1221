@@ -1,7 +1,0 @@
-CREATE TABLE Students
-(
-ID INT CONSTRAINT PK_Student PRIMARY KEY,
-ID_Group INT CONSTRAINT FK_Student_Group FOREIGN KEY REFERENCES Groups(ID),
-StudentName NVARCHAR(50) CONSTRAINT UQ_Students_StudentName NOT NULL,
-RecordBook INT CONSTRAINT UQ_Students_RecordBook NOT NULL
-);
